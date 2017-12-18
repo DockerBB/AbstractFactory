@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Yizit.DesignModel.AbstractFactory
 {
@@ -52,7 +52,7 @@ namespace Yizit.DesignModel.AbstractFactory
     {
         public void Draw()
         {
-            Console.WriteLine("Rectangle的draw方法");
+            Console.WriteLine("Rectangle的Draw方法");
         }
     }
 
@@ -60,7 +60,7 @@ namespace Yizit.DesignModel.AbstractFactory
     {
         public void Draw()
         {
-            Console.WriteLine("Square的draw方法");
+            Console.WriteLine("Square的Draw方法");
         }
     }
 
@@ -68,7 +68,7 @@ namespace Yizit.DesignModel.AbstractFactory
     {
         public void Draw()
         {
-            Console.WriteLine("Circle的draw方法");
+            Console.WriteLine("Circle的Draw方法");
         }
     }
 
@@ -81,7 +81,7 @@ namespace Yizit.DesignModel.AbstractFactory
     {
         public void Fill()
         {
-            Console.WriteLine("Red的fill方法");
+            Console.WriteLine("Red的Fill方法");
         }
     }
 
@@ -89,7 +89,7 @@ namespace Yizit.DesignModel.AbstractFactory
     {
         public void Fill()
         {
-            Console.WriteLine("Green的fill方法");
+            Console.WriteLine("Green的Fill方法");
         }
     }
 
@@ -97,7 +97,7 @@ namespace Yizit.DesignModel.AbstractFactory
     {
         public void Fill()
         {
-            Console.WriteLine("Blue的fill方法");
+            Console.WriteLine("Blue的Fill方法");
         }
     }
 
